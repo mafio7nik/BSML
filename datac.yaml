@@ -1,0 +1,13 @@
+train: /content/BSML/datasets/train/images
+val: /content/BSML/datasets/valid/images
+test: /content/BSML/datasets/test/images
+
+nc: 58
+names: ['8-bit', 'amber', 'ash', 'barley', 'bea', 'belle', 'bibi', 'bo', 'bonnie', 'brock', 'bull', 'buzz', 'byron', 'carl', 'colette', 'colonel-ruffs', 'colt', 'crow', 'darryl', 'dynamike', 'edgar', 'el-primo', 'emz', 'eve', 'fang', 'frank', 'gale', 'gene', 'griff', 'grom', 'jacky', 'janet', 'jessie', 'leon', 'lola', 'lou', 'max', 'meg', 'mortis', 'mr-p', 'nani', 'nita', 'otis', 'pam', 'penny', 'piper', 'poco', 'rico', 'rosa', 'sandy', 'shelly', 'spike', 'sprout', 'squeak', 'stu', 'surge', 'tara', 'tick']
+
+roboflow:
+  workspace: bsv
+  project: brawl-stars-vtq0k
+  version: 7
+  license: MIT
+  url: https://universe.roboflow.com/bsv/brawl-stars-vtq0k/dataset/7
